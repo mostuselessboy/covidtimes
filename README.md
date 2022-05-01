@@ -17,3 +17,5 @@ I am really proud that I am the first person ever to came up with such Idea that
 ## What's next for CovidTimes 
 I thought of adding a feature which will let you **select the sources** from where you want news and you will also be able to show only the data of the country in which you live, so it will be more better for worker to concentrate on their country's status.
 ## Made For the BayView Hackathon 
+Link to the CovidTimes Website
+https://covidtimes.mostuselessboy.repl.co/
