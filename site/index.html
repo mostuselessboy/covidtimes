@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!--------------------- HEADER ----------------------->
+<link rel="shortcut icon" href='https://cdn.pixabay.com/photo/2020/04/29/07/54/coronavirus-5107715_1280.png' type="image/png">
+<title>COVID TIMES</title>
+<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+<!--------------------- RESOURCES - CSS/FONTS ----------------------->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+
+<!-----------------------------SCRIPTS----------------------------->
+<BODY ondragstart="return false;" ondrop="return false;">
+<script>document.addEventListener('contextmenu', event => event.preventDefault());</script>
+<script data-cfasync="false">
+  (function(r,e,E,m,b){E[r]=E[r]||{};E[r][b]=E[r][b]||function(){
+  (E[r].q=E[r].q||[]).push(arguments)};b=m.getElementsByTagName(e)[0];m=m.createElement(e);
+  m.async=1;m.src=("file:"==location.protocol?"https:":"")+"//s.reembed.com/G-XEVPOn.js";
+  b.parentNode.insertBefore(m,b)})("reEmbed","script",window,document,"api");
+</script>
+
+
+  </head>
+  <div class="header">
+  <center><h2 class ="sub-heading2">COVID TIMES</h2></center>
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
+<form autoComplete='off'>
+<input autoComplete='off' type="text" id="searchbar2" class= "searchbar" placeholder="Search"">
+<button class="btn" onclick="search_google()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512" width="38px" height="38px"><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg></button>
+
+<button class="btn" onclick="search_ytbe()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="38px" height="38px"> <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></button>
+  <script>
+function search_google() {
+var abd = document.getElementById("searchbar2").value;
+window.open("https://www.google.com/search?q=" + abd + "");
+};
+function search_ytbe() {
+var abd = document.getElementById("searchbar2").value;
+window.open("https://www.youtube.com/search?q=" + abd + "");
+}</script>
+
+</form>
+
+  <div class="section"></div>
+<!----------------------------- NAVBAR ----------------------------->
+<body>
+<body class="align">
+<nav class="navigation navigation--inline">
+<ul>
+<li>
+<a href="#map">
+<svg class="icon icon--2x">
+<use xlink:href="#icon-home" />
+</svg>
+<span class="invisible">Map</span>
+</a>
+</li>
+<li>
+<a href="#tweets">
+<svg class="icon icon--2x">
+<use xlink:href="#icon-search" />
+</svg>
+<span class="invisible">Tweets by WHO</span>
+</a>
+</li>
+<li>
+<a href="#videos">
+<svg class="icon icon--2x">
+<use xlink:href="#icon-cart" />
+</svg>
+<span class="invisible">Videos</span>
+</a>
+</li>
+<li>
+<a href="#facts">
+<svg class="icon icon--2x">
+<use xlink:href="#icon-bell" />
+</svg>
+<span class="invisible">Facts Check</span>
+</a>
+</li>
+<li>
+<a href="#news">
+<svg class="icon icon--2x">
+<use xlink:href="#icon-user" />
+</svg>
+<span class="invisible">News</span>
+</a>
+</li>
+</ul>
+</nav>
+
+<svg xmlns="http://www.w3.org/2000/svg" class="icons">
+<symbol id="icon-bell"  viewBox="0 0 16 16">
+  <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+
+</symbol>
+<symbol id="icon-cart" viewBox="0 0 16 16">
+  <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+</symbol>
+<symbol id="icon-home"  fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z"/>
+
+</symbol>
+<symbol id="icon-search"  viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+
+</symbol>
+<symbol id="icon-user" viewBox="0 0 16 16">
+  <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
+  <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+
+</symbol>
+</svg>
+
+
+
+<!--------------------------- VIDEOS -------------------------->
+
+<h1 class="sub-heading" id="videos">📻Latest Covid Videos</h1>
+<div class= videos-grid>
+{%for video in videos:%}
+<div class="card">
+<div class="card__header">
+<iframe src={{"https://www.youtube.com/embed/"+video['id']}} width="600" height="340" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="card__body">
+<span class="tag tag-red">YouTube</span>
+<h4>{{video['title']}}</h4>
+</div>
+<div class="card__footer">
+<div class="user">
+<div class="user__info">
+<h5>{{video['author']}}</h5>
+<small>{{video['date']}}</small>
+
+</div></div></div></div>
+{%endfor%}  
+</div>
+
+
+<!--------------------------- NEWS  -------------------------->
+<h1 class="sub-heading" id="news">📰Covid Newspaper</h1>
+<div class="container">
+{%for new in news:%}
+<div class="card">
+<a href = {{new['link']}}>
+<div class="card__header">
+<img src={{new['img']}} alt="card__image" class="card__image" width="600">
+</div>
+  </a>
+<div class="card__body">
+<span class="tag tag-blue">{{new['media']}}</span>
+<h4>{{new['title']}}</h4>
+<p>{{new['bio']}}</p>
+</div>
+<div class="card__footer">
+<div class="user">
+<div class="user__info">
+<h5>{{new['author']['name']}}</h5>
+<small>{{new['date'][:9]}}</small>
+
+</div></div></div></div>
+{%endfor%}  
+</div>
+<!--------------------------- MAPS  -------------------------->
+
+<h1 class="sub-heading" id="map">🗺️Covid WorldWide Overview</h1>
+
+<iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="80%" height="600px" marginwidth="10%" border=0px none></iframe>
+
+    
+<!--------------------------- FACT CHECKER  -------------------------->
+
+
+<h1 class="sub-heading" id="facts">🔎Covid FactChecks</h1>
+
+<div class = "container">
+  {%for fact in facts:%}
+  <section class="accordion">
+  <input type="checkbox" name="collapse" id={{fact['title'].replace(" ","2")}}>
+  <h2 class="handle">
+    <label for={{fact['title'].replace(" ","2")}} class = "sub-heading2">{{fact['title']}}</label>
+  </h2>
+  <div class="content">
+    <p class="text1">{{fact['bio']}}.</p>
+  </div>
+</section>
+  {%endfor%}  
+
+</div>
+<div>
+
+<h1 class="sub-heading" id="tweets">Latest Tweets by WHO</h1>
+<div class = "container2">
+
+<a class="twitter-timeline" href="https://twitter.com/WHO?ref_src=twsrc%5Etfw">Tweets by WHO</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</div>
+<!--------------------------- FOOTER-SECTION -------------------------->
+</body>
+</html>
